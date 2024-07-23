@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1613771404784-3a5686aa2be3?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.425);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+  text-align: center;
+}
+.card h2 {
+  margin-top: 0;
+}
+.name{
+  font-family: 'Courier New', Courier, monospace;
+}
